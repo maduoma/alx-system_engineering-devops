@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Please count all this long sentence and remve all c letters found in the words such as cat, cup c| tr -d 'c' | tr -d 'C'
+tr -d 'cC'
