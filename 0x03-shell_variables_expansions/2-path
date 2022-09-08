@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr -d -c ":" | echo $(($(wc -c)+1))
+export PATH=$PATH:/action
